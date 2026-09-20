@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Lab2.App/**/*.cs" />
+    <ProjectReference Include="Lab2.Domain/Lab2.Domain.csproj" />
+    <ProjectReference Include="Lab2.Collections/Lab2.Collections.csproj" />
+  </ItemGroup>
+</Project>
